@@ -1,7 +1,7 @@
 # for all the csv files that you have, do the basic cleaning first
 
 
-setwd("D:/R/PressRelease/EntireData(2002onwards)/DataCleaningForGithub")
+setwd(your_path_name)
 
 #The data was obtained from multiple csv files provided by the data engineers at co2online
 

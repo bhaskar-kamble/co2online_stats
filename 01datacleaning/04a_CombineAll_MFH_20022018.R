@@ -1,4 +1,4 @@
-setwd("D:/R/PressRelease/EntireData(2002onwards)/DataCleaningForGithub")
+setwd(your_path_name)
 load("all_MFH_20022017.RData")
 load("file2018_MFH.RData")
 

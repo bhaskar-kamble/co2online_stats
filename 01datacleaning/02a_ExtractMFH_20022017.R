@@ -1,4 +1,4 @@
-setwd("D:/R/PressRelease/EntireData(2002onwards)/DataCleaningForGithub")
+setwd(your_path_name)
 
 MFH0217 <- read.csv("1.2.0.0.0. MFH 2002 - 2017 NEU.csv",header=TRUE , sep=";" , dec="," , stringsAsFactors=FALSE)
 

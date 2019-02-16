@@ -1,4 +1,4 @@
-setwd("D:/R/PressRelease/EntireData(2002onwards)/DataCleaningForGithub")
+setwd(your_path_name)
 file1_initial <- read.csv("Johannes Export ab 01.08.2018_20181221_140003.csv",sep=";",stringsAsFactors = FALSE)
 file2_initial <- read.csv("Johannes Export ab 01.08.2018_20190102_093003.csv",sep=";",stringsAsFactors = FALSE)
 
