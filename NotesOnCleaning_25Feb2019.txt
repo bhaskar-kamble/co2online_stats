@@ -1,3 +1,6 @@
+   Johannes Export ab 01.08.2018_20181221_140003.csv
+   Johannes Export ab 01.08.2018_20190102_093003.csv - these two files contain data also from 2002-2017 which are not there in the earlier files. So extracting them also, instead of just 2018.
+
 1. Open the following data:
    the final Rdata files for 2002-2018 (MFH20022018.RData and SFH20022018.RData).
 2. The csv files:
@@ -6,5 +9,6 @@
 3. See the program 03a_ExtractMFHSFH_2018.R in your github repo. Omit the step where you extract only 2018 data.
 4. Run the above, i.e. 3a, then 3b , and then 3c. RENAME THESE FILES: for e.g. 03a_ExtractMFHSFH_with2018.R.
 5. In 04a_CombineAll_MFH_20022018.R , you will have to check for duplicates again, since 3a, 3b and 3c include data also from non-2018 years.
+   Rename this as v2.
 6. And the same thing holds for 04b, i.e. check for duplicates.
 
