@@ -46,8 +46,10 @@ names(file2018)[names(file2018)=="warmwasser"]   <-   "verbrauch_warmwasser_kwh_
 
 
 #save images of:
-file2018_MFH <- file2018[file2018$gebaeude_typ == "MFH" , ]
-file2018_SFH <- file2018[file2018$gebaeude_typ == "SFH" , ]
+file_with2018_MFH <- file2018[file2018$gebaeude_typ == "MFH" , ]
+file_with2018_SFH <- file2018[file2018$gebaeude_typ == "SFH" , ]
+file_with2018_MFH <- file_with2018_MFH[file_with2018_MFH$abrechnungsjahr %in% 2002:2018 , ]
+file_with2018_SFH <- file_with2018_SFH[file_with2018_SFH$abrechnungsjahr %in% 2002:2018 , ]
 
-save(file2018_MFH , file = "file2018_MFH.RData")
-save(file2018_SFH , file = "file2018_SFH.RData")
+save(file_with2018_MFH , file = "file_with2018_MFH.RData")
+save(file_with2018_SFH , file = "file_with2018_SFH.RData")
